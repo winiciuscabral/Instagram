@@ -3,14 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     font-size: 14px;
 }
 
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: ;
+    background-color: #FAFAFA;
     display: flex;
     justify-content: center;
 }
@@ -40,7 +40,7 @@ body {
     justify-content: space-around;
     flex-direction: column;
     width: 50%;
-    min-height: 34rem;
+    min-height: 35rem;
 }
 
 .group {
@@ -48,12 +48,123 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: ;
-    width: 100%;
-    padding: ;
-    border: 1px solid gray;
+    width: 25rem;
+    min-height: 19rem;
+    padding: 1.5rem 0;
+    background-color: #FFFFFF;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
 }
 
-.group img {
-    width: 165px;
+.logo-insta {
+    height: 4rem;
+}
+
+.insta-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1.5rem 0;
+}
+
+.insta-profile img {
+    width: 7rem;
+}
+
+.continue-accounts {
+    background-color: #0095F6;
+    outline: none;
+    border: 0 solid #000;
+    border-radius: 4px;
+    text-align: center;
+    color: #FFFFFF;
+    height: auto;
+    padding: 0.3rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.switch-accounts {
+    margin: 1.5rem 0;
+}
+
+.switch-accounts a {
+    color: #0095F6;
+    font-weight: 500;
+}
+
+/* LOGIN INSTAGRAM */
+
+.group-login:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 25rem;
+    min-height: 20rem;
+    padding: 1.5rem 0;
+    background-color: #FFFFFF;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+}
+.group-login:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 25rem;
+    min-height: 4rem;
+    padding: 1.5rem 0;
+    background-color: #FFFFFF;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+}
+
+.group-login form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input[type="text"] {
+    width: 20rem;
+    height: auto;
+    background-color: #FAFAFA;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #262626;
+    outline: none;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0.2rem 0;
+}
+
+form .enter {
+    width: 20rem;
+    background-color: #0095F6;
+    outline: none;
+    border: 0 solid #000;
+    border-radius: 4px;
+    text-align: center;
+    color: #FFFFFF;
+    height: auto;
+    padding: 0.6rem 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.lines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lines .line {
+    height: 2px;
+    background-color: #dbdbdb;
 }
